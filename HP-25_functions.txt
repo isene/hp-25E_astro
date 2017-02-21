@@ -1,0 +1,10 @@
+Various snippets/functions for the HP-25
+
+(MOD):
+  /
+  LASTX
+  X <> Y
+  g FRAC
+  *
+
+
