@@ -21,3 +21,5 @@ The following program modules are available (pressing the module number and R/S 
 (more modules to come)
 
 In the program listings, the checksum is shown in parentheses behind the last program step in each page.
+
+I have also made a VIM filetype and syntax plugin to facilitate the creation of HP-25 programs (using ".25" as file extension): https://github.com/isene/hp-25_vim
