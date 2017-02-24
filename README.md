@@ -15,8 +15,8 @@ If you enter the number 1 and then press R/S, the program jumps to "module 1" (c
 
 The following program modules are available (pressing the module number and R/S after the time is displayed will launch the module as explained above):
 
-* 1: With YYYY in Reg 3, MM in Reg 4 and DD in Reg 5 (and time in Reg 0), pressing 1 and R/S displays the Julian Date (JD). Pressing R/S displays the Modified Julian Date (MJD=JD-2400000.5). Pressing R/S again gets you back to the main program (#60) with the current time displayed and with JD in Reg Y and MDJ in Reg Z.
-* 2: With JD in the display, pressing 2 and R/S will return YYYY.MMDD in X and HH.mmss in Y. It leaves YYYY in Reg 3, MM in Reg 4 and DD in Reg 5. Pressing R/S brings you back to the main program (#60) with the current time in X, YYYY.MMDD from the JD in Y and HH.mmss from the JD is left in the Z register.
+* 1: With YYYY in Reg 3, MM in Reg 4 and DD in Reg 5 (and time in Reg 0), pressing 1 and R/S displays the Julian Date (JD) with integer part in X and fractional part in Y (to avoid rounding problems with the accuracy of seconds). Pressing R/S gets you back to the main program (#60) with the current time displayed and with JD (integer) in Reg Y and JD (fractional) in Reg Z.
+* 2: With the integer part of JD in X and fractional part in Y, pressing 2 and R/S will return YYYY.MMDD in X and HH.mmss in Y. It leaves YYYY in Reg 3, MM in Reg 4 and DD in Reg 5. Pressing R/S brings you back to the main program (#60) with the current time in X, YYYY.MMDD from the JD in Y and HH.mmss from the JD is left in the Z register.
 
 (more modules to come)
 
