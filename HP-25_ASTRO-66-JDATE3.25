@@ -1,0 +1,34 @@
+
+01 02		2
+02 14 51	f X>=Y
+03 13 06	GTO 06
+04 01		1
+05 23 51 03	STO + 3
+06 24 02	RCL 2	(Lbl 07)
+07 02		2
+08 04		4
+09 61		*
+10 14 00	f >HMS
+11 24 05	RCL 5
+12 33		EEX
+13 04		4
+14 71		/
+15 24 04	RCL 4
+16 33		EEX
+17 02		2
+18 71		/
+19 51		+
+20 24 03	RCL 3
+21 51		+	X = YYYY.MMDD, Y = HH.mmss
+22 74		R/S
+24 00		0
+27 14 13 07	f ENG 7 ()
+
+REG 0 = Time
+REG 1 = Time Zone
+REG 2 = Goto Program
+REG 3 = Year
+REG 4 = Month
+REG 5 = Day
+REG 6 = Latitude
+REG 7 = Longitude

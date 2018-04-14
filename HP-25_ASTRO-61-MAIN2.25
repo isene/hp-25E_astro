@@ -1,0 +1,39 @@
+
+01 01		1
+02 41		-
+03 15 61	g X!=0
+04 13 08	GTO 08
+05 06		6
+06 02		2	    (Module 1: Date -> JD)
+07 13 24	GTO 24
+08 01		1
+09 41		-
+10 15 61	g X!=0
+11 13 15	GTO 15
+12 06		6
+13 02		4	    (Module 2: JD -> Date)
+14 13 24	GTO 24
+15 01		1
+16 41		-
+17 15 61	g X!=0
+18 13 22	GTO 22
+19 06		6
+20 02		7	    (Module 3: Sun rise/set)
+21 13 24	GTO 24
+22 06		6
+23 00		0	    (Default back to Main)
+24 23 02	STO 2	    (Lbl 24)
+25 22		RDN
+26 22		RDN
+27 06		6
+28 00		0	    (Set return address)
+29 14 13 07	f ENG 9	    ()
+
+REG 0 = Time
+REG 1 = Time Zone
+REG 2 = Goto Program
+REG 3 = Year
+REG 4 = Month
+REG 5 = Day
+REG 6 = Latitude
+REG 7 = Longitude
