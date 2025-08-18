@@ -1,4 +1,10 @@
 # hp-25E_astro
+
+[![HP-25](https://img.shields.io/badge/HP--25-Calculator-orange)](https://en.wikipedia.org/wiki/HP-25)
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/hp-25E_astro.svg)](https://github.com/isene/hp-25E_astro/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
 Turning the HP-25E into the ultimate amateur astronomy calculator.
 
 The HP-25E is an original HP-25 with a brain transplant.
