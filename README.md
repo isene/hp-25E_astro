@@ -1,6 +1,7 @@
 # hp-25E_astro
 
 <img src="img/hp25e_astro_logo.svg" align="left" width="150" height="150">
+<br clear="left"/>
 
 [![HP-25](https://img.shields.io/badge/HP--25-Calculator-orange)](https://en.wikipedia.org/wiki/HP-25)
 [![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
